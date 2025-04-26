@@ -3,8 +3,11 @@ using UnityEngine;
 public class PlayerScript : MonoBehaviour
 {
 
+    public InteractionScript itemInteraction;
+
     public float MovementSpeed = 5;
     public float JumpForce = 2;
+    public int itemsCollected;
 
     private Rigidbody2D _rigidbody;
 
@@ -13,6 +16,7 @@ public class PlayerScript : MonoBehaviour
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
+        itemsCollected = 0;
     }
 
     // Update is called once per frame
