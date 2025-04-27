@@ -22,10 +22,11 @@ public class CameraFollow : MonoBehaviour
         //Verify if camera is out of bounds and then limit it to the min and max values
         Vector3 boundPosition = new Vector3(
             Mathf.Clamp(targetPosition.x, minValues.x, maxValue.x),
-            Mathf.Clamp(targetPosition.y, minValues.y, maxValue.y));
+            Mathf.Clamp(targetPosition.y, minValues.y, maxValue.y),
+            Mathf.Clamp(targetPosition.z, minValues.z, maxValue.z));
 
 
-        Vector3 smoothPosition = Vector3.Lerp(transform.position, targetPosition, smoothFactor * Time.fixedDeltaTime);
+        Vector3 smoothPosition = Vector3.Lerp(transform.position, boundPosition, smoothFactor * Time.fixedDeltaTime);
         transform.position = smoothPosition;
     }
 
