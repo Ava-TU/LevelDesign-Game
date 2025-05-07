@@ -826,6 +826,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Village Props - Ladder 02
       objectReference: {fileID: 0}
+    - target: {fileID: 3261066817682409598, guid: 7b51376ff9aae694dbc3f515f5737d84, type: 3}
+      propertyPath: m_TagString
+      value: Ladder
+      objectReference: {fileID: 0}
     - target: {fileID: 4118844081562260744, guid: 7b51376ff9aae694dbc3f515f5737d84, type: 3}
       propertyPath: m_Color.b
       value: 0.7176471
@@ -2462,6 +2466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cac85098f1a156741896ad2cdec3c470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 2048703907}
 --- !u!1 &1471917085
 GameObject:
   m_ObjectHideFlags: 0
@@ -2976,6 +2981,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1407871000}
   m_SourcePrefab: {fileID: 100100000, guid: 0601a343d3c16294cbe412a836d15a5d, type: 3}
+--- !u!50 &2048703907 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 4548141186523835567, guid: 0601a343d3c16294cbe412a836d15a5d, type: 3}
+  m_PrefabInstance: {fileID: 2048703906}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2102446874
 GameObject:
   m_ObjectHideFlags: 0
