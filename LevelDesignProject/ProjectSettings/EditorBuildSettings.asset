@@ -8,5 +8,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LevelOne.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/streetlevel.unity
+    guid: ea230ff2019e3814985829f7218e51a7
+  - enabled: 1
+    path: Assets/Scenes/DungeonLevel.unity
+    guid: 878b3b9a5f0aaf2439e263b3bb17690e
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
